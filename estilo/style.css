@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cyber';
+    src: url('../fonts/Cyber-BoldRustique.ttf') format('truetype')
+   ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #01012B;
+    text-align: center;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.349);
+    
+}
+section {
+    background-color: #d1f7ff;
+}
+
+
+header > h1 {
+    color: #ff2a6d;
+    padding-top: 40px;
+    text-shadow: 2px 2px 10px #005678;
+    font-size: 3em;
+    font-family: 'cyber',sans-serif;
+    
+}
+header > h2 {
+    color: #05D9E8;
+    padding-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color: #01012B;
+    color: white;
+    padding: 7px;
+}
