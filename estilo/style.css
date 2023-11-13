@@ -6,9 +6,18 @@
    ;
 }
 
+@font-face {
+    font-family: 'cybertooth';
+    src: url('../fonts/CYBERTOOTH.otf') format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+   
 }
 
 header{
@@ -33,6 +42,23 @@ header > h1 {
 header > h2 {
     color: #05D9E8;
     padding-bottom: 40px;
+}
+
+section {
+    background-color: #d1f7ff;
+    color: #ff2a6d;
+    line-height: 50px;
+    font-family: 'cybertooth';
+    
+}
+
+section#Imagem {
+    background-color: #d1f7ff;
+    background-image: url("../imagens/cyberpunk.jpg");
+    background-size: cover;
+    background-position: left bottom;
+    height: 350px;
+    width: 750px;
 }
 
 footer {
